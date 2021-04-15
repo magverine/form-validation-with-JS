@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7e8!important;
+}
+
+input{
+  width: 45%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+  border-width: thin;
+
+}
+input[type=radio]{
+  width: 3%;
+}
+input[type=submit]{
+  width: 20%;
+}
+input[type=submit]:hover{
+  background-color: #000000;
+  color: #ffffff;
+
+}
+footer{
+  color: #ffffff!important;
+}
+.fab-cust{
+  height: 20px;
+  width: 20px;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Login Form</title>
+  <!-- css link -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- bootstrap link -->
+  <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+  <!-- java script link -->
+  <script type="text/javascript" src="bootstrap-4.5.3-dist/js/bootstrap.js"></script>
+  <script type="text/javascript" src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <!-- ICON LINK -->
+  <script src="https://kit.fontawesome.com/e8e6eba5d5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- NAVBAR WITH LOGO -->
+
+  <section>
+    <nav class=" navbar navbar-expand-md bg-dark navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">LOGO</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">LogIn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SignUp</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Form Content -->
+
+  <section class="my-container text-center pt-5 pb-5">
+    <form action="mailto:Animmesh1998@gmail.com" name="userform" onsubmit="return formdata()" method="post">
+
+      <input type="text"  id="fname" name="firstname" placeholder="First Name"><br><br>
+
+      <input type="text"  id="lname" name="lastname" placeholder="Last Name"><br><br>
+
+      <input type="email"  id="mail" name="email" placeholder="Email"><br><br>
+
+      <input type="tel" id="telphone" name="phone" placeholder="+91 9876543210"><br><br>
+
+      <input type="date" name="dob" id="dateofbirth" value=""><br><br>
+
+      <input type="radio" id="gendr" name="gender" value="male"> Male
+      <input type="radio" id="gendr" name="gender" value="female"> Female
+      <input type="radio" id="gendr" name="gender" value="other"> Other<br><br>
+
+      <label> <strong> <em>Country:</em> </strong> </label>
+      <select class="" id="contry" name="Country">
+        <option value="India">India</option>
+        <option value="Australia">Australia</option>
+        <option value="USA">USA</option>
+        <option value="Japan">Japan</option>
+        <option value="Spain">Spain</option>
+        <option value="China">China</option>
+        <option value="Bangladesh">Bangladesh</option>
+      </select><br><br>
+
+      <input type="password" name="pwd" id="passwd" value="" placeholder="Password"><br><br>
+
+      <input type="password" name="pwd" id="passwd" value="" placeholder="Re-Enter Password"><br><br>
+
+      <input type="submit" name="submit" value="Sign-Up">
+    </form>
+  </section>
+
+  <!-- FOOTER PART -->
+
+  <section>
+    <footer class="bg-dark text-lg-start text-left">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h3 class="mb-4">LOGO</h3>
+            <h5 class="mb-4">HOME-ABOUT-CONTACT US</h5>
+            <p class="mb-4">Company Name © 2015</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <a href="#!" class="text-light nav-link"><i class="fas fa-map-marker-alt"></i> 21 Revolution Street <br> <strong>Paris, France</strong> </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-light nav-link"><i class="fas fa-phone"></i> +1 555 123456</a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-light nav-link"><i class="far fa-envelope"></i> support@company.com</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <ul class="list-unstyled">
+              <li>
+                <h6>About the company</h6>
+              </li>
+              <li>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </li>
+              <li>
+                <a href="#!" class="text-"><i class="fab fab-cust fa-facebook-square"></i></a>
+                <a href="#!" class="text-"><i class="fab fab-cust fa-twitter-square"></i></i></a>
+                <a href="#!" class="text-"><i class="fab fab-cust fa-linkedin"></i></i></a>
+                <a href="#!" class="text-"><i class="fab fab-cust fa-github-square"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+</body>
+
+</html>
